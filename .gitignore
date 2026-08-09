@@ -59,6 +59,9 @@ next-env.d.ts
 AGENTS.md
 CLAUDE.md
 
+# Local Fallback Data Store (Generated at runtime if offline)
+/.data/
+
 # Temporary Scratch Files
 /scratch/
 *.tmp
