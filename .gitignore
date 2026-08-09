@@ -55,6 +55,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# Internal IDE Agent Documentation (Ignored on GitHub)
+AGENTS.md
+CLAUDE.md
+
 # Temporary Scratch Files
 /scratch/
 *.tmp
