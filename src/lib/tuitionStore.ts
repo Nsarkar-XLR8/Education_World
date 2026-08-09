@@ -166,7 +166,7 @@ export async function getTuitions(options?: {
     });
 
     if (dbTuitions && dbTuitions.length > 0) {
-      return dbTuitions.map((t) => ({
+      return dbTuitions.map((t: typeof dbTuitions[number]) => ({
         id: t.id,
         name: t.name,
         email: t.email,
